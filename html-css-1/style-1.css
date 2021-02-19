@@ -1,0 +1,54 @@
+.mainHeader {
+  width: 100vw;
+  height: 100px;
+  background-color: salmon;
+  text-align: left;
+  font-display: inline;
+  padding: 30px;
+  
+  
+}
+.link{
+  color: black;
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.mainTitle{
+  display: inline-block;
+}
+.mainbox{
+  border: black 5px;
+  border-style: dotted;
+  width: 100vw;
+  height: 250px;
+  margin: 5px;
+  padding: 5px;
+  
+ }
+ .htmlimg{
+  width: 10%;
+  height: 50%;
+}
+.text {
+  display: inline-block;
+  font-size:  20px;
+}
+.secondbox{
+  border: black 5px ;
+  width: 100vw;
+  height: 250px;
+  border-style: dotted;
+  }
+ .cssimg{
+   float: right;
+   width: 10%;
+   height: 40%;
+ }
+.text2{
+  display:inline-block;
+  font-size: 20px;
+  
+}
+
