@@ -1,0 +1,77 @@
+.mainheader{
+  width: 100vw;
+  height: 100px;
+  background-color: cyan;
+  margin: 5px;
+
+}
+.rect{
+  font-size: 30px;
+  font-weight: bold;
+}
+.rect1{
+  box-sizing: border-box;
+  border: black 2px;
+  border-style: dashed;
+  width: 100 vw;
+  height: 300px;
+  display: flex;
+  justify-content: flex-start;
+;
+}
+.longbox{
+  background-color: blueviolet;
+  width: 300px;
+  height: 100px;
+  margin: 175px 10px;
+  }
+  .littlebox{ 
+    background-color: darkblue;
+    box-shadow: black;
+    height: 100px;
+    width: 100 px;
+    margin: 50px 100px;
+    display: inline-block;
+   }
+   .circ{
+     font-size: 30px;
+     font-weight: 700;
+   }
+   .snowman{
+     box-sizing: border-box;
+     border: black 2px;
+     border-style: dashed;
+     width: 100vw;
+     height: 400px;
+   }
+   .head{
+     border: black 2px;
+     border-style: solid;
+     border-radius: 50%;
+     height: 70px;
+     width: 70px;
+     padding: 15px;
+     margin: 0px 20px;
+
+   }
+   
+   .body{
+    border: black 2px;
+    border-style: solid;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin: 0px 10px;
+
+ 
+  }
+   .bottom{
+     border: black 2px;
+     border-style: solid;
+     border-radius: 50%;
+     height: 130px;
+     width: 130px;
+     margin: 0px 5px;
+   }
+  

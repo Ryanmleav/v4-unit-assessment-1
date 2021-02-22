@@ -30,10 +30,12 @@
  .htmlimg{
   width: 10%;
   height: 50%;
+  clear: none;
 }
 .text {
   display: inline-block;
   font-size:  20px;
+  
 }
 .secondbox{
   border: black 5px ;

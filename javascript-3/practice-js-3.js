@@ -2,12 +2,13 @@
 /* Create an array called 'groceries' that contains three grocery items of your choice as strings. */
 
 //CODE HERE
+let groceries = ['protein', 'preworkout', 'rockstars']
 
 //////////////////STEP 2////////////////////
 /* Create a variable called 'yourName' that is assigned the value of your name as a string. */
 
 //CODE HERE
-
+let yourName = 'ryan'
 //////////////////STEP 3////////////////////
 /*
     Create a function called 'setGroceryListTitle' that takes in one parameter called 'x'. 
@@ -17,7 +18,10 @@
 */
 
 //CODE HERE
-
+function setGroceryListTitle(x){
+    // var x = 'joseph'
+    return (x + "'s" + " " + 'Grocery List');
+}
 //////////////////STEP 4////////////////////
 /* 
     Create a function called 'addItem' that takes in one parameter called 'item'. 
@@ -27,6 +31,11 @@
 */
 
 //CODE HERE
+ function addItem(item) {    
+         item.push([i])
+    return displayData() 
+};
+
 
 //////////////////STEP 5////////////////////
 /*
@@ -37,7 +46,10 @@
 */
 
 //CODE HERE
-
+function removeItem(index){
+    groceries.splice(2,1)
+    displayData()
+};
 //////////////////STEP 6////////////////////
 /*
     Create a function called 'checkGroceryCount'. Inside of checkGroceryCount, 
@@ -50,7 +62,18 @@
 */
 
 //CODE HERE
+function checkGroceryCount(){
+    let groceries = []
+    console.log(groceries.length);
+    if(groceries > 5){
+        return 'That looks like a big trip'
+    } if (groceries > 1){
+        return'1 item'
+    } else{ (groceries >1 && groceries < 5)
+        return 'NUMBEROFGROCERIES items'
+    }
 
+}
 
 //////////////////Check out your code!////////////////////
 /*
